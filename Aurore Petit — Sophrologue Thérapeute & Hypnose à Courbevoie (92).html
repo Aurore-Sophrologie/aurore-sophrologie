@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurore Petit — Sophrologue Thérapeute & Hypnose à Courbevoie (92)</title>
+  <meta name="description" content="Aurore Petit, sophrologue thérapeute certifiée RNCP et hypnothérapeute à Courbevoie (92). Stress, anxiété, burn-out, dépression, sommeil, phobies, périnatalité, enfants, seniors, aidants. Cabinet 63 avenue de l'Europe. RDV sur Crenolib. 06 86 00 70 24." />
+  <meta name="keywords" content="sophrologue Courbevoie, sophrologue thérapeute Courbevoie, hypnothérapeute Courbevoie, sophrologie 92, sophrologue Hauts-de-Seine, sophrologue La Défense, sophrologue Nanterre, sophrologue Puteaux, sophrologue Neuilly, sophrologue Levallois, stress anxiété sophrologie, burn out sophrologue, sophrologue enfant Courbevoie, sophrologie sommeil, sophrologie périnatalité post-partum, sophrologue phobies, sophrologie douleur chronique, hypnose troubles anxieux Courbevoie, sophrologie aidants familiaux, sophrologie entreprise Courbevoie" />
+  <meta name="author" content="Aurore Petit" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://auroresophrologie.fr/" />
+  <meta property="og:title" content="Aurore Petit — Sophrologue Thérapeute & Hypnose à Courbevoie (92)" />
+  <meta property="og:description" content="Sophrologue certifiée RNCP et hypnothérapeute à Courbevoie. Stress, anxiété, burn-out, phobies, périnatalité, enfants, seniors, aidants. Cabinet 63 av. de l'Europe. RDV sur Crenolib." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:url" content="https://auroresophrologie.fr/" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "name": "Aurore Petit — Sophrologue Thérapeute & Hypnothérapeute",
+    "description": "Sophrologue certifiée RNCP et hypnothérapeute spécialisée en troubles anxieux, stress, burn-out, dépression, phobies, douleur chronique, périnatalité, post-partum, enfants, seniors et aidants familiaux.",
+    "url": "https://auroresophrologie.fr/",
+    "telephone": "+33686007024",
+    "email": "sophrologue.aurore@gmail.com",
+    "sameAs": [
+      "https://www.instagram.com/aurore.sophrologie/",
+      "https://www.crenolib.fr"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "63 avenue de l'Europe",
+      "addressLocality": "Courbevoie",
+      "postalCode": "92400",
+      "addressCountry": "FR"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 48.8975, "longitude": 2.2535 },
+    "openingHours": ["Sa 11:00-21:00"],
+    "priceRange": "60€–70€",
+    "areaServed": ["Courbevoie","La Défense","Nanterre","Puteaux","Neuilly-sur-Seine","Levallois-Perret","Hauts-de-Seine"],
+    "hasMap": "https://maps.google.com/?q=63+avenue+de+l+Europe+92400+Courbevoie"
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --mauve: #c4b8cc;
+      --mauve-light: #f0eaf4;
+      --mauve-dark: #7a6882;
+      --beige: #c8a97a;
+      --beige-light: #f5ede0;
+      --linen: #f7f3ee;
+      --linen-dark: #e8e0d5;
+      --stone: #4a4540;
+      --stone-mid: #7a746e;
+      --stone-light: #a09a94;
+      --white: #ffffff;
+      --border: rgba(74,69,64,0.1);
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    html{scroll-behavior:smooth;}
+    body{font-family:'Jost',sans-serif;font-weight:300;color:var(--stone);background:var(--linen);line-height:1.75;overflow-x:hidden;}
+
+    /* ── NAV ── */
+    nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(247,243,238,0.95);backdrop-filter:blur(14px);border-bottom:1px solid var(--border);height:68px;display:flex;align-items:center;justify-content:space-between;padding:0 3rem;}
+    .nav-brand{display:flex;align-items:center;gap:0.75rem;text-decoration:none;}
+    .nav-brand-icon{width:36px;height:36px;border-radius:50%;border:1px solid var(--mauve);display:flex;align-items:center;justify-content:center;font-size:1rem;}
+    .nav-brand-text{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:400;color:var(--stone);letter-spacing:0.03em;}
+    .nav-brand-text span{color:var(--mauve-dark);}
+    .nav-links{display:flex;gap:2rem;list-style:none;align-items:center;}
+    .nav-links a{font-size:0.78rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--stone-light);text-decoration:none;transition:color 0.2s;}
+    .nav-links a:hover{color:var(--mauve-dark);}
+    .nav-rdv{background:var(--mauve-dark)!important;color:var(--white)!important;padding:0.5rem 1.2rem;border-radius:2rem;transition:background 0.2s!important;}
+    .nav-rdv:hover{background:var(--stone)!important;}
+    .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px;}
+    .hamburger span{display:block;width:24px;height:1.5px;background:var(--stone);}
+
+    /* ── HERO ── */
+    .hero{min-height:100vh;display:grid;grid-template-columns:55% 45%;padding-top:68px;background:var(--linen);}
+    .hero-left{display:flex;flex-direction:column;justify-content:center;padding:5rem 3rem 5rem 5rem;}
+    .hero-eyebrow{font-size:0.72rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--mauve-dark);margin-bottom:1.5rem;display:flex;align-items:center;gap:0.75rem;}
+    .hero-eyebrow::before{content:'';display:block;width:28px;height:1px;background:var(--mauve-dark);}
+    h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.6rem,4vw,3.8rem);font-weight:300;line-height:1.15;color:var(--stone);margin-bottom:0.5rem;}
+    h1 em{font-style:italic;color:var(--mauve-dark);}
+    .hero-sub{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:300;font-style:italic;color:var(--stone-light);margin-bottom:1.75rem;letter-spacing:0.02em;}
+    .hero-desc{font-size:0.95rem;color:var(--stone-mid);max-width:440px;margin-bottom:2.5rem;line-height:1.9;}
+    .hero-actions{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:3rem;}
+    .btn-primary{background:var(--mauve-dark);color:var(--white);padding:0.85rem 1.9rem;border-radius:2rem;text-decoration:none;font-size:0.85rem;letter-spacing:0.07em;transition:background 0.2s,transform 0.15s;display:inline-block;}
+    .btn-primary:hover{background:var(--stone);transform:translateY(-1px);}
+    .btn-outline{background:transparent;color:var(--stone);padding:0.85rem 1.9rem;border-radius:2rem;border:1px solid rgba(74,69,64,0.2);text-decoration:none;font-size:0.85rem;letter-spacing:0.07em;transition:border-color 0.2s,transform 0.15s;display:inline-block;}
+    .btn-outline:hover{border-color:var(--mauve-dark);color:var(--mauve-dark);transform:translateY(-1px);}
+    .hero-badges{display:flex;gap:0.75rem;flex-wrap:wrap;}
+    .badge{background:var(--white);border:1px solid var(--border);border-radius:2rem;padding:0.4rem 1rem;font-size:0.75rem;color:var(--stone-mid);letter-spacing:0.04em;}
+    .hero-right{position:relative;background:var(--mauve-light);overflow:hidden;}
+    .hero-img-wrap{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;}
+    .hero-placeholder{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;color:var(--mauve-dark);}
+    .hero-placeholder svg{width:72px;height:72px;opacity:0.2;}
+    .hero-placeholder p{font-size:0.78rem;opacity:0.45;text-align:center;padding:0 2rem;}
+    .hero-quote-card{position:absolute;bottom:2.5rem;left:-2rem;background:var(--white);border-radius:1rem;padding:1.25rem 1.5rem;box-shadow:0 8px 32px rgba(0,0,0,0.08);max-width:280px;}
+    .hero-quote-card blockquote{font-family:'Cormorant Garamond',serif;font-size:1rem;font-style:italic;color:var(--stone);line-height:1.6;margin-bottom:0.5rem;}
+    .hero-quote-card cite{font-size:0.75rem;color:var(--stone-light);}
+
+    /* ── SECTIONS ── */
+    section{padding:6rem 2rem;}
+    .container{max-width:1100px;margin:0 auto;}
+    .section-label{font-size:0.72rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--mauve-dark);margin-bottom:0.85rem;display:flex;align-items:center;gap:0.75rem;}
+    .section-label::before{content:'';display:block;width:22px;height:1px;background:var(--mauve-dark);}
+    h2{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,3vw,2.8rem);font-weight:300;line-height:1.2;color:var(--stone);margin-bottom:1.25rem;}
+    h2 em{font-style:italic;color:var(--mauve-dark);}
+    .lead{font-size:1rem;color:var(--stone-mid);line-height:1.9;max-width:600px;}
+
+    /* ── SOPHROLOGIE ── */
+    .sophro-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center;}
+    .sophro-visual{position:relative;}
+    .sophro-blob{width:100%;aspect-ratio:3/4;background:var(--mauve-light);border-radius:38% 62% 58% 42% / 42% 38% 62% 58%;display:flex;align-items:center;justify-content:center;}
+    .sophro-blob-inner{font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,7vw,6rem);color:var(--mauve);font-style:italic;font-weight:300;}
+    .sophro-stats{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.5rem;}
+    .stat{background:var(--white);border:1px solid var(--border);border-radius:1rem;padding:1.1rem 1.25rem;}
+    .stat strong{display:block;font-family:'Cormorant Garamond',serif;font-size:1.7rem;font-weight:400;color:var(--mauve-dark);line-height:1;margin-bottom:0.2rem;}
+    .stat span{font-size:0.78rem;color:var(--stone-light);}
+    .sophro-text p{color:var(--stone-mid);margin-bottom:1.1rem;line-height:1.9;}
+    .sophro-text p strong{color:var(--stone);font-weight:500;}
+
+    /* ── SPÉCIALITÉS ── */
+    .specs-section{background:var(--white);}
+    .specs-header{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:end;margin-bottom:3rem;}
+    .specs-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1.25rem;}
+    .spec{background:var(--linen);border:1px solid var(--border);border-radius:1.25rem;padding:1.6rem;transition:transform 0.2s,box-shadow 0.2s,border-color 0.2s;}
+    .spec:hover{transform:translateY(-4px);box-shadow:0 12px 36px rgba(0,0,0,0.06);border-color:var(--mauve);}
+    .spec-ico{width:42px;height:42px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.25rem;margin-bottom:0.85rem;}
+    .spec h3{font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-weight:400;color:var(--stone);margin-bottom:0.35rem;}
+    .spec p{font-size:0.82rem;color:var(--stone-light);line-height:1.7;}
+
+    /* ── HYPNOSE ── */
+    .hypnose-section{background:var(--mauve-light);}
+    .hypnose-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center;}
+    .hypnose-card{background:var(--white);border-radius:1.5rem;padding:2.5rem;border:1px solid var(--border);}
+    .hypnose-card h3{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:400;color:var(--stone);margin-bottom:1rem;}
+    .hypnose-card p{font-size:0.9rem;color:var(--stone-mid);line-height:1.9;margin-bottom:0.85rem;}
+    .hypnose-tags{display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:1.25rem;}
+    .htag{background:var(--mauve-light);color:var(--mauve-dark);padding:0.3rem 0.85rem;border-radius:2rem;font-size:0.76rem;border:1px solid var(--mauve);}
+
+    /* ── TYPES DE CONSULTATION ── */
+    .consult-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:3rem;}
+    .consult-card{border-radius:1.25rem;padding:2rem;border:1px solid var(--border);}
+    .consult-card.light{background:var(--white);}
+    .consult-card.tinted{background:var(--mauve-light);}
+    .consult-card h3{font-family:'Cormorant Garamond',serif;font-size:1.35rem;font-weight:400;color:var(--stone);margin-bottom:1rem;}
+    .consult-card p,.consult-card li{font-size:0.87rem;color:var(--stone-mid);line-height:1.85;}
+    .consult-card ul{list-style:none;padding:0;}
+    .consult-card li{padding:0.3rem 0;padding-left:1.2rem;position:relative;}
+    .consult-card li::before{content:'◦';position:absolute;left:0;color:var(--mauve-dark);}
+    .consult-card .note{font-size:0.75rem;color:var(--stone-light);font-style:italic;margin-top:0.75rem;padding:0.6rem 0.85rem;background:var(--linen);border-radius:0.5rem;border-left:2px solid var(--mauve);}
+
+    /* ── ENTREPRISE ── */
+    .entreprise-section{background:var(--stone);}
+    .entreprise-section .section-label{color:var(--beige);}
+    .entreprise-section .section-label::before{background:var(--beige);}
+    .entreprise-section h2{color:var(--white);}
+    .entreprise-section h2 em{color:var(--beige);}
+    .entreprise-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center;}
+    .entreprise-text p{color:rgba(255,255,255,0.72);line-height:1.9;margin-bottom:1rem;}
+    .entreprise-themes{display:grid;grid-template-columns:1fr 1fr;gap:0.85rem;margin-top:1.5rem;}
+    .etheme{background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);border-radius:0.85rem;padding:0.9rem 1.1rem;font-size:0.82rem;color:rgba(255,255,255,0.8);}
+    .etheme strong{display:block;color:var(--white);margin-bottom:0.15rem;font-weight:500;}
+    .entreprise-info{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:1.25rem;padding:2rem;}
+    .einfo-item{display:flex;align-items:center;gap:0.85rem;padding:0.75rem 0;border-bottom:1px solid rgba(255,255,255,0.08);}
+    .einfo-item:last-child{border-bottom:none;}
+    .einfo-icon{font-size:1.2rem;}
+    .einfo-item span{font-size:0.87rem;color:rgba(255,255,255,0.7);}
+    .einfo-item strong{color:var(--white);font-weight:400;}
+
+    /* ── PARTENAIRES ── */
+    .partners-section{background:var(--linen-dark);}
+    .partners-quote{text-align:center;max-width:700px;margin:0 auto 3rem;}
+    .partners-quote blockquote{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-style:italic;font-weight:300;color:var(--stone);line-height:1.5;margin-bottom:0.75rem;}
+    .partners-quote cite{font-size:0.82rem;color:var(--stone-light);}
+    .partners-logos{display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;align-items:center;}
+    .partner-badge{background:var(--white);border:1px solid var(--border);border-radius:0.85rem;padding:0.7rem 1.25rem;font-size:0.8rem;color:var(--stone-mid);font-weight:400;}
+
+    /* ── PARCOURS ── */
+    .parcours-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start;}
+    .parcours-timeline{display:flex;flex-direction:column;gap:0;}
+    .tl-item{display:flex;gap:1.25rem;position:relative;padding-bottom:1.5rem;}
+    .tl-item:last-child{padding-bottom:0;}
+    .tl-left{display:flex;flex-direction:column;align-items:center;flex-shrink:0;width:2rem;}
+    .tl-dot{width:10px;height:10px;border-radius:50%;background:var(--mauve-dark);flex-shrink:0;margin-top:5px;}
+    .tl-line{flex:1;width:1px;background:var(--mauve-light);margin-top:4px;}
+    .tl-item:last-child .tl-line{display:none;}
+    .tl-content h4{font-family:'Cormorant Garamond',serif;font-size:1.05rem;font-weight:400;color:var(--stone);margin-bottom:0.15rem;}
+    .tl-content p{font-size:0.8rem;color:var(--stone-light);}
+    .tl-year{font-size:0.72rem;color:var(--mauve-dark);letter-spacing:0.08em;margin-bottom:0.2rem;}
+    .exercice-box{background:var(--mauve-light);border-radius:1.25rem;padding:2rem;border:1px solid var(--mauve);}
+    .exercice-box h3{font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--stone);margin-bottom:1rem;}
+    .ex-item{display:flex;gap:0.75rem;margin-bottom:0.85rem;align-items:flex-start;}
+    .ex-dot{width:6px;height:6px;border-radius:50%;background:var(--mauve-dark);flex-shrink:0;margin-top:6px;}
+    .ex-item p{font-size:0.84rem;color:var(--stone-mid);line-height:1.75;}
+    .ex-item p strong{color:var(--stone);}
+
+    /* ── TÉMOIGNAGES ── */
+    .temoignages-section{background:var(--white);}
+    .temos-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.5rem;margin-top:3rem;}
+    .temo{background:var(--linen);border:1px solid var(--border);border-radius:1.25rem;padding:2rem;}
+    .temo-stars{color:var(--beige);font-size:0.9rem;letter-spacing:0.1em;margin-bottom:1rem;}
+    .temo blockquote{font-family:'Cormorant Garamond',serif;font-size:1.05rem;font-style:italic;font-weight:300;color:var(--stone);line-height:1.7;margin-bottom:1rem;}
+    .temo-author strong{display:block;font-size:0.85rem;font-weight:500;color:var(--stone);}
+    .temo-author span{font-size:0.78rem;color:var(--stone-light);}
+
+    /* ── TARIFS ── */
+    .tarifs-section{background:var(--mauve-light);}
+    .tarifs-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1.25rem;margin-top:3rem;}
+    .tarif{background:var(--white);border:1px solid var(--border);border-radius:1.25rem;padding:2rem;text-align:center;}
+    .tarif.highlight{background:var(--mauve-dark);border-color:var(--mauve-dark);}
+    .tarif h3{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:400;color:var(--stone);margin-bottom:0.5rem;}
+    .tarif.highlight h3{color:var(--white);}
+    .tarif-price{font-family:'Cormorant Garamond',serif;font-size:2.8rem;font-weight:300;color:var(--mauve-dark);line-height:1;margin:0.6rem 0 0.3rem;}
+    .tarif.highlight .tarif-price{color:var(--white);}
+    .tarif p{font-size:0.82rem;color:var(--stone-light);}
+    .tarif.highlight p{color:rgba(255,255,255,0.72);}
+    .tarif-tag{display:inline-block;margin-top:0.85rem;font-size:0.73rem;padding:0.3rem 0.85rem;border-radius:2rem;background:var(--mauve-light);color:var(--mauve-dark);border:1px solid var(--mauve);}
+    .tarif.highlight .tarif-tag{background:rgba(255,255,255,0.15);color:var(--white);border-color:rgba(255,255,255,0.3);}
+    .tarifs-note{text-align:center;margin-top:2rem;font-size:0.85rem;color:var(--stone-light);}
+    .tarifs-note a{color:var(--mauve-dark);}
+
+    /* ── CONTACT ── */
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;}
+    .contact-infos{display:flex;flex-direction:column;gap:1.5rem;}
+    .cinfo{display:flex;gap:1rem;align-items:flex-start;}
+    .cinfo-icon{width:44px;height:44px;background:var(--mauve-light);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.15rem;flex-shrink:0;}
+    .cinfo-text strong{display:block;font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--stone-light);margin-bottom:0.2rem;}
+    .cinfo-text a,.cinfo-text p{font-size:0.97rem;color:var(--stone);text-decoration:none;}
+    .cinfo-text a:hover{color:var(--mauve-dark);}
+    .map-wrap{margin-top:1.25rem;border-radius:1rem;overflow:hidden;border:1px solid var(--border);}
+    .map-wrap iframe{width:100%;height:200px;display:block;border:none;}
+    .contact-form-box{background:var(--white);border:1px solid var(--border);border-radius:1.5rem;padding:2.5rem;}
+    .form-title{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:400;color:var(--stone);margin-bottom:1.5rem;}
+    .fg{margin-bottom:1.1rem;}
+    .fg label{display:block;font-size:0.72rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--stone-light);margin-bottom:0.4rem;}
+    .fg input,.fg select,.fg textarea{width:100%;padding:0.75rem 0.95rem;background:var(--linen);border:1px solid var(--border);border-radius:0.75rem;font-family:'Jost',sans-serif;font-size:0.92rem;font-weight:300;color:var(--stone);outline:none;transition:border-color 0.2s;-webkit-appearance:none;}
+    .fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--mauve-dark);}
+    .fg textarea{resize:vertical;min-height:90px;}
+    .form-btn{width:100%;background:var(--mauve-dark);color:var(--white);border:none;padding:0.95rem;border-radius:2rem;font-family:'Jost',sans-serif;font-size:0.88rem;font-weight:400;letter-spacing:0.07em;cursor:pointer;transition:background 0.2s;margin-top:0.4rem;}
+    .form-btn:hover{background:var(--stone);}
+    .rdv-cta{display:block;text-align:center;background:var(--beige-light);border:1px solid var(--beige);color:var(--stone);text-decoration:none;padding:0.85rem;border-radius:1rem;font-size:0.88rem;margin-top:1rem;transition:background 0.2s;}
+    .rdv-cta:hover{background:var(--beige);color:var(--white);}
+    .rdv-cta strong{display:block;font-size:0.95rem;color:var(--stone);}
+
+    /* ── FOOTER ── */
+    footer{background:var(--stone);color:rgba(255,255,255,0.55);padding:4rem 2rem 2rem;}
+    .footer-inner{max-width:1100px;margin:0 auto;}
+    .footer-top{display:grid;grid-template-columns:2fr 1fr 1fr;gap:3rem;margin-bottom:3rem;}
+    .footer-brand{font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:300;color:var(--white);margin-bottom:0.75rem;}
+    .footer-brand span{color:var(--mauve);}
+    .footer-col h4{font-size:0.72rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:1rem;}
+    .footer-col a{display:block;font-size:0.85rem;color:rgba(255,255,255,0.55);text-decoration:none;margin-bottom:0.5rem;transition:color 0.2s;}
+    .footer-col a:hover{color:var(--white);}
+    .footer-bottom{border-top:1px solid rgba(255,255,255,0.08);padding-top:1.5rem;font-size:0.76rem;text-align:center;}
+
+    /* ── ANIMATIONS ── */
+    .fade-in{opacity:0;transform:translateY(20px);transition:opacity 0.65s ease,transform 0.65s ease;}
+    .fade-in.visible{opacity:1;transform:translateY(0);}
+
+    /* ── MOBILE ── */
+    @media(max-width:900px){
+      nav{padding:0 1.5rem;}
+      .nav-links{display:none;}
+      .hamburger{display:flex;}
+      .nav-links.open{display:flex;flex-direction:column;position:fixed;top:68px;left:0;right:0;bottom:0;background:var(--linen);padding:3rem 2rem;gap:1.75rem;align-items:center;overflow-y:auto;z-index:199;}
+      .nav-links.open a{font-size:1rem;}
+      .hero{grid-template-columns:1fr;min-height:auto;}
+      .hero-left{padding:3rem 1.5rem;}
+      .hero-right{display:none;}
+      .sophro-grid,.hypnose-grid,.entreprise-grid,.parcours-grid,.contact-grid,.consult-grid,.specs-header,.footer-top{grid-template-columns:1fr;gap:2.5rem;}
+      section{padding:4rem 1.5rem;}
+      .hero-quote-card{display:none;}
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-brand">
+    <div class="nav-brand-icon">🌿</div>
+    <span class="nav-brand-text">Aurore <span>Petit</span></span>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#sophrologie">La sophrologie</a></li>
+    <li><a href="#specialites">Spécialités</a></li>
+    <li><a href="#hypnose">L'hypnose</a></li>
+    <li><a href="#parcours">Parcours</a></li>
+    <li><a href="#tarifs">Tarifs</a></li>
+    <li><a href="https://www.crenolib.fr" target="_blank" rel="noopener" class="nav-rdv">Prendre RDV</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" aria-label="Présentation">
+  <div class="hero-left">
+    <p class="hero-eyebrow">Sophrologue Thérapeute · Courbevoie (92)</p>
+    <h1>Aurore <em>Petit</em></h1>
+    <p class="hero-sub">Sophrologue Thérapeute certifiée RNCP & Hypnothérapeute</p>
+    <p class="hero-desc">Un accompagnement personnalisé, basé sur l'écoute, la bienveillance et la transmission de la méthode. Cabinet au 63 avenue de l'Europe, Courbevoie — à deux pas de La Défense.</p>
+    <div class="hero-actions">
+      <a href="https://www.crenolib.fr" target="_blank" rel="noopener" class="btn-primary">Prendre RDV sur Crenolib</a>
+      <a href="#sophrologie" class="btn-outline">Découvrir la méthode</a>
+    </div>
+    <div class="hero-badges">
+      <span class="badge">✓ Certifiée RNCP</span>
+      <span class="badge">✓ Chambre Syndicale de la Sophrologie</span>
+      <span class="badge">✓ Séances à distance</span>
+      <span class="badge">✓ Tous âges</span>
+    </div>
+  </div>
+  <div class="hero-right" aria-hidden="true">
+    <div class="hero-img-wrap">
+      <div class="hero-placeholder">
+        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="35" r="22" stroke="#7a6882" stroke-width="1.5"/>
+          <path d="M10 90 Q50 62 90 90" stroke="#7a6882" stroke-width="1.5" fill="none"/>
+        </svg>
+        <p>Photo d'Aurore<br />(à remplacer)</p>
+      </div>
+    </div>
+    <div class="hero-quote-card">
+      <blockquote>Notre plus grande arme contre le stress est notre capacité de choisir une pensée plutôt qu'une autre.</blockquote>
+      <cite>— William James</cite>
+    </div>
+  </div>
+</section>
+
+<!-- SOPHROLOGIE -->
+<section id="sophrologie">
+  <div class="container">
+    <div class="sophro-grid">
+      <div class="sophro-visual fade-in">
+        <div class="sophro-blob"><span class="sophro-blob-inner">∞</span></div>
+        <div class="sophro-stats">
+          <div class="stat"><strong>1</strong><span>séance suffit pour un premier apaisement</span></div>
+          <div class="stat"><strong>60 min</strong><span>par séance, à votre rythme</span></div>
+          <div class="stat"><strong>Cabinet</strong><span>& séances à distance possibles</span></div>
+          <div class="stat"><strong>Tous âges</strong><span>enfants, adultes, seniors</span></div>
+        </div>
+      </div>
+      <div class="sophro-text fade-in">
+        <p class="section-label">La méthode</p>
+        <h2>Qu'attendre de votre accompagnement en <em>sophrologie ?</em></h2>
+        <p><em>Un accompagnement personnalisé adapté à vos besoins, problématiques, capacités et objectifs.</em></p>
+        <p>La sophrologie est une méthode initiée en 1960 par les travaux du Dr Alfonso Caycédo, Neuro-Psychiatre. Il s'inspire de concepts en harmonisant les influences thérapeutiques (<em>hypnose, thérapie brève, autosuggestion positive…</em>), philosophiques (<em>phénoménologie</em>) et orientales (<em>yoga, bouddhisme tibétain…</em>).</p>
+        <p>C'est une approche thérapeutique psycho-corporelle permettant de se recentrer sur soi-même, de comprendre comment son corps et son esprit fonctionnent et réagissent. Elle vous permet d'apprendre à identifier vos ressentis corporels, psychiques et émotionnels.</p>
+        <p><strong>L'implication personnelle est indispensable</strong> pour évoluer pleinement vers votre objectif. Vous êtes au cœur de votre développement personnel et vous acquérez la méthode afin d'en faire un outil personnel au quotidien.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPÉCIALITÉS -->
+<section id="specialites" class="specs-section">
+  <div class="container">
+    <div class="specs-header fade-in">
+      <div>
+        <p class="section-label">Accompagnements</p>
+        <h2>Mes domaines<br /><em>d'expertise</em></h2>
+      </div>
+      <p class="lead">Chaque accompagnement est unique. Je prends le temps de comprendre votre situation avant de construire un protocole entièrement personnalisé, élaboré avec fluidité et cohérence.</p>
+    </div>
+    <div class="specs-grid">
+      <div class="spec fade-in"><div class="spec-ico" style="background:#f0eaf4;">🌬️</div><h3>Stress & Gestion du stress</h3><p>Apprenez à désamorcer les tensions chroniques et à retrouver des ressources intérieures stables au quotidien.</p></div>
+      <div class="spec fade-in"><div class="spec-ico" style="background:#f5ede0;">🫀</div><h3>Anxiété & Troubles anxieux</h3><p>Angoisses, attaques de panique, hypervigilance : la sophrologie vous aide à réguler vos manifestations corporelles et à retrouver un état de sécurité intérieure.</p></div>
+      <div class="spec fade-in"><div class="spec-ico" style="background:#f0eaf4;">🔥</div><h3>Burn-out & Épuisement</h3><p>Retrouvez votre énergie et reconstruisez votre rapport au travail et à vous-même après un épuisement professionnel ou personnel.</p></div>
+      <div class="spec fade-in"><div class="spec-ico" style="background:#f5ede0;">🌧️</div><h3>Dépression</h3><p>Un accompagnement doux et bienveillant pour retrouver de l'élan, du sens et renouer avec le plaisir du quotidien.</p></div>
+      <div class="spec fade-in"><div class="spec-ico" style="background:#f0eaf4;">🌙</div><h3>Troubles du sommeil</h3><p>Insomnies, réveils nocturnes, difficultés d'endormissement : la sophrologie agit en profondeur sur la qualité et la régularité du sommeil.</p></div>
+      <div class="spec fade-in"><div class="spec-ico" style="background:#f5ede0;">🌊</div><h3>Troubles de l'humeur</h3><p>Irritabilité, ruminations, émotions envahissantes : apprenez à les accueillir et les réguler avec douceur.</p></div>
+      <div class="spec fade-in"><div class="spec-ico" style="background:#f0eaf4;">🌱</div><h3>Confiance en soi & Culpabilité</h3><p>Retrouvez un rapport bienveillant avec vous-même, renforcez l'estime de soi et le discours intérieur positif.</p></div>
+      <div class="spec fade-in"><div class="spec-ico" style="background:#f5ede0;">💆</div><h3>Gestion de la douleur</h3><p>Douleurs chroniques, cancer, fibromyalgie, endométriose, sclérose… La sophrologie comme outil complémentaire centré sur la personne et non la maladie.</p></div>
+      <div class="spec fade-in"><div class="spec-ico" style="background:#f0eaf4;">🤲</div><h3>Accompagnement psycho-émotionnel</h3><p>Un espace d'écoute et de travail profond pour traverser les crises, les transitions de vie et les épreuves.</p></div>
+      <div class="spec fade-in"><div class="spec-ico" style="background:#f5ede0;">🤝</div><h3>Deuil & Aidants familiaux</h3><p>Accompagnement délicat pour les personnes en deuil ou s'occupant d'un proche dépendant, en partenariat avec des plateformes de répit financées par l'ARS.</p></div>
+      <div class="spec fade-in"><div class="spec-ico" style="background:#f0eaf4;">🧒</div><h3>Accompagnement de l'enfant</h3><p>Dès 5-6 ans : gestion des peurs, colère, tristesse, concentration, confiance, phobies scolaires, relations parents-enfants.</p></div>
+      <div class="spec fade-in"><div class="spec-ico" style="background:#f5ede0;">🤰</div><h3>Périnatalité & Post-partum</h3><p>Préparation à la naissance, gestion de l'anxiété prénatale, baby blues, dépression post-partum — un accompagnement doux et adapté.</p></div>
+      <div class="spec fade-in"><div class="spec-ico" style="background:#f0eaf4;">🎯</div><h3>Préparation mentale</h3><p>Examens, concours, compétitions, entretiens, prises de parole, opérations : optimiser la concentration et projeter votre propre réussite.</p></div>
+      <div class="spec fade-in"><div class="spec-ico" style="background:#f5ede0;">🧓</div><h3>Seniors & Personnes âgées</h3><p>Maintien du bien-être, accompagnement du passage à la retraite, soutien face aux changements physiques et mentaux liés à l'âge.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TYPES DE CONSULTATION -->
+<section id="consultations">
+  <div class="container">
+    <p class="section-label fade-in">La sophrologie thérapeutique</p>
+    <h2 class="fade-in">Types de <em>consultations</em></h2>
+    <p class="lead fade-in">La sophrologie est une méthode adaptée à de nombreuses situations. Voici quelques accompagnements spécifiques proposés au cabinet.</p>
+    <div class="consult-grid">
+      <div class="consult-card light fade-in">
+        <h3>🎭 Les phobies</h3>
+        <p>Phobie de l'avion, sociale, scolaire, agoraphobie, claustrophobie… La sophrologie vous aide à gérer les symptômes en vous accompagnant par un protocole personnalisé. Vous apprenez à vous familiariser avec vos émotions afin de mieux les maîtriser et relativiser les anxiétés liées.</p>
+        <p style="margin-top:0.75rem;">Le Sophrologue vous réconcilie avec la confiance en soi.</p>
+        <p class="note">Il est recommandé, en parallèle, de s'investir dans un suivi psychologique pour certains types de phobies (psychiatre, psychologie).</p>
+      </div>
+      <div class="consult-card tinted fade-in">
+        <h3>🔄 Les pulsions</h3>
+        <p>L'accompagnement ciblé permet une meilleure canalisation des pulsions liées au stress et à la nervosité. La sophrologie agit sur la gestion de cette source d'énergie entraînant des comportements pulsionnels.</p>
+        <ul style="margin-top:0.75rem;">
+          <li>Identifier vos ressentis et faire le lien entre source de stress et manifestation</li>
+          <li>Prise de conscience des besoins physiologiques</li>
+          <li>Réguler le comportement compulsif</li>
+          <li>Se détacher des habitudes néfastes</li>
+        </ul>
+        <p class="note">Les conduites addictives doivent être prises en charge médicalement en parallèle.</p>
+      </div>
+      <div class="consult-card tinted fade-in">
+        <h3>🏥 Accompagnement médical & douleur</h3>
+        <p>La sophrologie est un outil complémentaire à une prise en charge médicale. Elle ne se substitue aucunement à un suivi médical ni aux traitements. Sa spécificité est d'être centrée sur la personne et non sur la maladie.</p>
+        <p style="margin-top:0.75rem;">Bénéfices reconnus pour : Cancers, Fibromyalgie, Endométriose, Sclérose en plaque, Maladie de Parkinson, Acouphènes, Dépressions…</p>
+      </div>
+      <div class="consult-card light fade-in">
+        <h3>👶 Bienfaits du silence</h3>
+        <ul>
+          <li>Diminution du stress — Régénère le cerveau</li>
+          <li>Réduction des risques cardiovasculaires</li>
+          <li>Augmentation de la concentration</li>
+          <li>Capacité de mémorisation</li>
+          <li>Meilleure créativité</li>
+          <li>Connexion à ses émotions</li>
+        </ul>
+        <p style="margin-top:0.75rem;">En sophrologie, les temps de silence prennent toute leur place.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HYPNOSE -->
+<section id="hypnose" class="hypnose-section">
+  <div class="container">
+    <div class="hypnose-grid">
+      <div class="fade-in">
+        <p class="section-label">L'hypnose</p>
+        <h2>Hypnose <em>Ericksonienne</em><br />& Nouvel Hypnose</h2>
+        <p class="lead">Certifiée depuis 2022, Aurore Petit propose également des séances d'hypnose thérapeutique, particulièrement adaptées à la prise en charge des troubles anxieux.</p>
+      </div>
+      <div class="hypnose-card fade-in">
+        <h3>Hypnose des troubles anxieux</h3>
+        <p>L'hypnose Ericksonienne est une approche douce et collaborative qui permet d'accéder à vos ressources intérieures pour traiter en profondeur les troubles anxieux, les phobies et les blocages émotionnels.</p>
+        <p>Contrairement aux idées reçues, vous restez pleinement conscient(e) et acteur(trice) de la séance. L'hypnose est un état naturel de conscience modifiée que nous expérimentons tous au quotidien.</p>
+        <div class="hypnose-tags">
+          <span class="htag">Troubles anxieux</span>
+          <span class="htag">Phobies</span>
+          <span class="htag">Confiance en soi</span>
+          <span class="htag">Douleur chronique</span>
+          <span class="htag">Sommeil</span>
+          <span class="htag">Stress</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ENTREPRISE -->
+<section class="entreprise-section">
+  <div class="container">
+    <div class="entreprise-grid">
+      <div class="entreprise-text fade-in">
+        <p class="section-label">Entreprises & Collectivités</p>
+        <h2>Des projets et des actions<br /><em>ensemble</em></h2>
+        <p>À l'heure de la considération de la Santé Mentale au travail, les entreprises font régulièrement appel à la sophrologie pour offrir un espace de bien-être et de détente à leurs salariés.</p>
+        <p>Pour des semaines de qualité de vie au travail (SQVT) ou dans une dynamique pérenne du bien-être au travail, Aurore PETIT répond aux demandes en s'adaptant à la culture d'entreprise.</p>
+        <p>À travers des petits groupes, elle mobilise les salariés sur un objectif commun, en lien avec votre demande, entrant dans le champ de l'amélioration de la qualité de vie au travail.</p>
+        <a href="#contact" class="btn-primary" style="margin-top:1.5rem;display:inline-block;">Demander un devis</a>
+      </div>
+      <div class="fade-in">
+        <div class="entreprise-themes">
+          <div class="etheme"><strong>Détente corporelle & mentale</strong>Réduction du stress</div>
+          <div class="etheme"><strong>Bien-être & cohésion</strong>Amélioration au travail</div>
+          <div class="etheme"><strong>Concentration & production</strong>Capacités optimisées</div>
+          <div class="etheme"><strong>Dynamisme & créativité</strong>Ressources personnelles</div>
+        </div>
+        <div class="entreprise-info" style="margin-top:1.5rem;">
+          <div class="einfo-item"><span class="einfo-icon">🚗</span><span><strong>Déplacement</strong> sur le lieu de travail</span></div>
+          <div class="einfo-item"><span class="einfo-icon">👥</span><span>Groupes de <strong>6 à 15 personnes</strong></span></div>
+          <div class="einfo-item"><span class="einfo-icon">⏱️</span><span>Prestations de <strong>45 min à 1h30</strong></span></div>
+          <div class="einfo-item"><span class="einfo-icon">📋</span><span>Sur devis · <strong>Devis gratuit</strong></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PARTENAIRES -->
+<section class="partners-section">
+  <div class="container">
+    <div class="partners-quote fade-in">
+      <p class="section-label" style="justify-content:center;">Partenariats</p>
+      <blockquote>La confiance est un élément majeur, sans elle, aucun projet n'aboutit.</blockquote>
+      <cite>— Merci de m'accorder la vôtre · Aurore</cite>
+    </div>
+    <div class="partners-logos fade-in">
+      <span class="partner-badge">🏠 Groupe Maisons de Famille</span>
+      <span class="partner-badge">🌍 Fondation GoodPlanet</span>
+      <span class="partner-badge">👴 Senior Compagnie</span>
+      <span class="partner-badge">🏛️ Ville de Courbevoie</span>
+      <span class="partner-badge">⚡ DELTA 7</span>
+      <span class="partner-badge">🌸 Les Camélias</span>
+      <span class="partner-badge">🏥 CRAMIF</span>
+      <span class="partner-badge">🔴 AXA Assurances</span>
+      <span class="partner-badge">📋 DAC · ARS</span>
+    </div>
+  </div>
+</section>
+
+<!-- PARCOURS -->
+<section id="parcours">
+  <div class="container">
+    <p class="section-label fade-in">À propos</p>
+    <h2 class="fade-in">Parcours <em>& Expériences</em></h2>
+    <p class="lead fade-in" style="margin-bottom:3rem;">Aurore promeut une prise en charge bienveillante avec une approche centrée sur la personne.</p>
+    <div class="parcours-grid">
+      <div>
+        <div class="parcours-timeline">
+          <div class="tl-item fade-in">
+            <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+            <div class="tl-content"><p class="tl-year">2005</p><h4>Faculté Paris Ouest — Psychologie</h4><p>Option Psychologie du développement de l'enfant</p></div>
+          </div>
+          <div class="tl-item fade-in">
+            <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+            <div class="tl-content"><p class="tl-year">2009</p><h4>Institut Clorivière, Paris 6e</h4><p>Diplôme d'État CESF (relation d'aide)</p></div>
+          </div>
+          <div class="tl-item fade-in">
+            <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+            <div class="tl-content"><p class="tl-year">2018</p><h4>CHU Université de Nantes</h4><p>Diplôme Inter-Universitaire de Coordination de soins</p></div>
+          </div>
+          <div class="tl-item fade-in">
+            <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+            <div class="tl-content"><p class="tl-year">2018</p><h4>Formation Bienveillance & Communication non violente</h4></div>
+          </div>
+          <div class="tl-item fade-in">
+            <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+            <div class="tl-content"><p class="tl-year">2020</p><h4>Institut de formation à la Sophrologie, Paris 11e</h4><p>Sophrologue Certifiée RNCP</p></div>
+          </div>
+          <div class="tl-item fade-in">
+            <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+            <div class="tl-content"><p class="tl-year">ISSP</p><h4>Sophro-thérapie & Psychothérapie, Paris 15e</h4><p>Troubles de la personnalité et de l'attachement, Troubles anxieux, Troubles de l'humeur, Psycho-traumatologie</p></div>
+          </div>
+          <div class="tl-item fade-in">
+            <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+            <div class="tl-content"><p class="tl-year">2022</p><h4>Secouriste en Santé Mentale (PSSM)</h4></div>
+          </div>
+          <div class="tl-item fade-in">
+            <div class="tl-left"><div class="tl-dot"></div></div>
+            <div class="tl-content"><p class="tl-year">2022</p><h4>Hypnose Ericksonienne & Nouvel Hypnose</h4></div>
+          </div>
+        </div>
+      </div>
+      <div class="fade-in">
+        <div class="exercice-box">
+          <h3>Exercice actuel</h3>
+          <div class="ex-item"><div class="ex-dot"></div><p><strong>Sophrologue libérale & en partenariat</strong> avec des Dispositifs d'aides aux Aidants (accompagnement individuel et collectif) — <em>2020 à ce jour</em></p></div>
+          <div class="ex-item"><div class="ex-dot"></div><p><strong>Sophrologue libérale en Entreprises</strong> : Qualité de vie au travail, événements, découverte de la Sophrologie — <em>2021 à ce jour</em></p></div>
+          <div class="ex-item"><div class="ex-dot"></div><p><strong>Sophrologue et Hypnothérapeute</strong> en cabinet, à domicile ou sur site — <em>2020 à ce jour</em></p></div>
+          <div class="ex-item"><div class="ex-dot"></div><p><strong>Coordonnateur de soins</strong> au sein d'un Réseau de santé (DAC · Agence Régionale de la Santé) — <em>2016 à ce jour</em></p></div>
+        </div>
+        <div style="margin-top:1.5rem;background:var(--mauve-light);border-radius:1.25rem;padding:1.5rem;border:1px solid var(--mauve);text-align:center;">
+          <p style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-style:italic;color:var(--stone);margin-bottom:0.5rem;">Membre de la Chambre Syndicale de la Sophrologie</p>
+          <p style="font-size:0.8rem;color:var(--stone-light);">Code de déontologie et éthique professionnelle</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TÉMOIGNAGES -->
+<section class="temoignages-section">
+  <div class="container">
+    <p class="section-label fade-in">Témoignages</p>
+    <h2 class="fade-in">Vos <em>témoignages</em></h2>
+    <div class="temos-grid">
+      <div class="temo fade-in">
+        <p class="temo-stars">★★★★★</p>
+        <blockquote>Super ! Aurore est très professionnelle, impliquée dans son travail, très douce et à l'écoute. J'ai découvert ses séances de sophrologie et j'en suis très satisfaite. Elle a su me donner les clefs pour gérer mon stress au quotidien. Le + : elle travaille également avec les enfants. Ma fille a tout de suite accroché. Grâce à elle ma fille se sent mieux et gère mieux ses angoisses. Encore merci !</blockquote>
+        <div class="temo-author"><strong>Amandine M.D.</strong><span>Patiente adulte & enfant</span></div>
+      </div>
+      <div class="temo fade-in">
+        <p class="temo-stars">★★★★★</p>
+        <blockquote>Une sophrologue très humaine. J'ai trouvé quelqu'un qui m'a beaucoup aidé à avancer. J'ai plus de facilité à ressentir les choses. Mon sommeil s'est amélioré. Merci.</blockquote>
+        <div class="temo-author"><strong>Kelly P.</strong><span>Rendez-vous décembre 2022</span></div>
+      </div>
+      <div class="temo fade-in">
+        <p class="temo-stars">★★★★★</p>
+        <blockquote>Professionnelle, sociable, très bon accueil. Une thérapeute compétente qui sait mettre à l'aise dès la première séance. Contact au top.</blockquote>
+        <div class="temo-author"><strong>Chouaieb G.</strong><span>Rendez-vous octobre 2022</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TARIFS -->
+<section id="tarifs" class="tarifs-section">
+  <div class="container">
+    <p class="section-label fade-in">Honoraires</p>
+    <h2 class="fade-in">Tarifs <em>& séances</em></h2>
+    <p class="lead fade-in">Consultations les samedis — Et à domicile (Courbevoie, Levallois, Neuilly & selon la demande)</p>
+    <div class="tarifs-grid">
+      <div class="tarif fade-in">
+        <h3>Première consultation</h3>
+        <div class="tarif-price">70€</div>
+        <p>1h · Bilan complet & première pratique · Adultes & Adolescents</p>
+        <span class="tarif-tag">Mutuelle possible</span>
+      </div>
+      <div class="tarif highlight fade-in">
+        <h3>Séance de suivi</h3>
+        <div class="tarif-price">60€</div>
+        <p>1h · Suivi personnalisé · Cabinet ou à distance</p>
+        <span class="tarif-tag">Mutuelle possible</span>
+      </div>
+      <div class="tarif fade-in">
+        <h3>Séance enfant</h3>
+        <div class="tarif-price">60€</div>
+        <p>Jusqu'à 12 ans · Durée adaptée selon l'âge</p>
+        <span class="tarif-tag">Mutuelle possible</span>
+      </div>
+      <div class="tarif fade-in">
+        <h3>Entreprise</h3>
+        <div class="tarif-price">Sur devis</div>
+        <p>Ateliers 45min–1h30 · Groupes 6–15 pers. · Déplacement sur site</p>
+        <span class="tarif-tag">Devis gratuit</span>
+      </div>
+    </div>
+    <p class="tarifs-note fade-in">De nombreuses mutuelles remboursent partiellement les séances. Renseignez-vous auprès de la vôtre.<br />
+    Réservez votre consultation sur <a href="https://www.crenolib.fr" target="_blank" rel="noopener"><strong>Crenolib</strong></a></p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <p class="section-label fade-in">Contact</p>
+    <h2 class="fade-in">Prenons <em>rendez-vous</em></h2>
+    <div class="contact-grid">
+      <div class="contact-infos fade-in">
+        <div class="cinfo">
+          <div class="cinfo-icon">📍</div>
+          <div class="cinfo-text"><strong>Cabinet</strong><p>63 avenue de l'Europe<br />92400 Courbevoie</p></div>
+        </div>
+        <div class="cinfo">
+          <div class="cinfo-icon">🏠</div>
+          <div class="cinfo-text"><strong>Déplacement à domicile</strong><p>Courbevoie, Levallois, Neuilly<br />& selon la demande</p></div>
+        </div>
+        <div class="cinfo">
+          <div class="cinfo-icon">📞</div>
+          <div class="cinfo-text"><strong>Téléphone</strong><a href="tel:+33686007024">06 86 00 70 24</a></div>
+        </div>
+        <div class="cinfo">
+          <div class="cinfo-icon">✉️</div>
+          <div class="cinfo-text"><strong>Email</strong><a href="mailto:sophrologue.aurore@gmail.com">sophrologue.aurore@gmail.com</a></div>
+        </div>
+        <div class="cinfo">
+          <div class="cinfo-icon">📸</div>
+          <div class="cinfo-text"><strong>Instagram</strong><a href="https://www.instagram.com/aurore.sophrologie/" target="_blank" rel="noopener">@aurore.sophrologie</a></div>
+        </div>
+        <div class="cinfo">
+          <div class="cinfo-icon">🕐</div>
+          <div class="cinfo-text"><strong>Horaires cabinet</strong><p>Samedi : 11h – 21h</p></div>
+        </div>
+        <a href="https://www.crenolib.fr" target="_blank" rel="noopener" class="rdv-cta">
+          <strong>📅 Réserver sur Crenolib</strong>
+          Prise de rendez-vous en ligne — rapide et gratuit
+        </a>
+        <div class="map-wrap">
+          <iframe title="Cabinet Aurore Petit sophrologue Courbevoie" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.5!2d2.2535!3d48.8975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s63+Avenue+de+l'Europe%2C+92400+Courbevoie!5e0!3m2!1sfr!2sfr!4v1" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="contact-form-box fade-in">
+        <p class="form-title">Envoyer un message</p>
+        <form action="mailto:sophrologue.aurore@gmail.com" method="post" enctype="text/plain">
+          <div class="fg"><label>Nom complet</label><input type="text" name="nom" placeholder="Votre nom" required /></div>
+          <div class="fg"><label>Téléphone</label><input type="tel" name="tel" placeholder="06 XX XX XX XX" /></div>
+          <div class="fg"><label>Email</label><input type="email" name="email" placeholder="votre@email.fr" required /></div>
+          <div class="fg">
+            <label>Motif de consultation</label>
+            <select name="motif">
+              <option value="">Choisir un motif</option>
+              <option>Stress & gestion du stress</option>
+              <option>Anxiété & troubles anxieux</option>
+              <option>Burn-out & épuisement</option>
+              <option>Dépression</option>
+              <option>Troubles du sommeil</option>
+              <option>Troubles de l'humeur</option>
+              <option>Confiance en soi / culpabilité</option>
+              <option>Phobies</option>
+              <option>Pulsions</option>
+              <option>Gestion de la douleur / accompagnement médical</option>
+              <option>Accompagnement psycho-émotionnel</option>
+              <option>Deuil</option>
+              <option>Aidant familial</option>
+              <option>Accompagnement enfant / ado</option>
+              <option>Périnatalité / post-partum</option>
+              <option>Préparation mentale (examen, compétition…)</option>
+              <option>Senior</option>
+              <option>Hypnose</option>
+              <option>Entreprise / QVT</option>
+              <option>Autre</option>
+            </select>
+          </div>
+          <div class="fg"><label>Message (optionnel)</label><textarea name="message" placeholder="Décrivez brièvement votre situation..."></textarea></div>
+          <button type="submit" class="form-btn">Envoyer ma demande</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <p class="footer-brand">Aurore <span>Petit</span></p>
+        <p style="font-size:0.85rem;line-height:1.8;">Sophrologue Thérapeute certifiée RNCP<br />Hypnothérapeute · Courbevoie (92)<br />63 avenue de l'Europe, 92400 Courbevoie<br /><a href="tel:+33686007024" style="color:rgba(255,255,255,0.55);text-decoration:none;">06 86 00 70 24</a><br /><a href="mailto:sophrologue.aurore@gmail.com" style="color:rgba(255,255,255,0.55);text-decoration:none;">sophrologue.aurore@gmail.com</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <a href="#sophrologie">La sophrologie</a>
+        <a href="#specialites">Spécialités</a>
+        <a href="#hypnose">L'hypnose</a>
+        <a href="#consultations">Types de consultation</a>
+        <a href="#parcours">Parcours</a>
+        <a href="#tarifs">Tarifs</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Liens utiles</h4>
+        <a href="https://www.crenolib.fr" target="_blank" rel="noopener">📅 Prendre RDV — Crenolib</a>
+        <a href="https://www.instagram.com/aurore.sophrologie/" target="_blank" rel="noopener">📸 @aurore.sophrologie</a>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener">👥 Facebook</a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener">💼 LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2025 Aurore Petit Sophrologue Thérapeute · Courbevoie (92) · auroresophrologie.fr · Sophrologue certifiée RNCP · Membre de la Chambre Syndicale de la Sophrologie
+    </div>
+  </div>
+</footer>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('navLinks');
+  hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) { setTimeout(() => e.target.classList.add('visible'), i * 60); observer.unobserve(e.target); }
+    });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
